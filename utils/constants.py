@@ -1,0 +1,15 @@
+DATA_PATH = "./data_processed_v2"
+TRAIN_PATH = "/train"
+VAL_PATH = "/val"
+TEST_PATH = "/test"
+
+NUM_OF_FEATURES = 3
+RANDOM_SEED = 42
+NUM_OF_EPOCHS = 100
+BATCH_SIZE = 16
+MAX_LEARNING_RATE = 0.01
+GRAD_CLIP = 0.1
+WEIGHT_DECAY = 1e-4
+image_channels = 3
+NUM_WORKER = 4
+CHECKPOINT_PATH = './weight/ResNet34_3cls.pth'
